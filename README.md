@@ -1,0 +1,11 @@
+End-to-End Fraud Detection System (Tabular Data ML)
+
+This project develops a complete fraud detection pipeline using open-source tabular datasets, such as the well-known credit card fraud dataset from Kaggle. The primary objective is to build a system capable of accurately identifying fraudulent transactions while maintaining high precision and recall in highly imbalanced data scenarios. By addressing the challenges of real-world fraud detection, this project demonstrates both strong technical depth and practical applicability.
+
+The pipeline begins with data preprocessing and feature engineering, where raw transaction data is cleaned, normalized, and enriched with derived features that highlight suspicious patterns. Since fraud datasets are often highly imbalanced, techniques such as SMOTE (Synthetic Minority Oversampling Technique), undersampling, and cost-sensitive learning are applied to ensure that models do not become biased toward the majority (non-fraudulent) class.
+
+Multiple machine learning algorithms are then trained and evaluated to determine the most effective approach. Baseline models such as Logistic Regression are compared with more advanced techniques including Random Forests and XGBoost, with performance assessed using metrics like precision, recall, F1-score, and AUC-ROC. This comparative analysis highlights the trade-offs between interpretability, computational efficiency, and predictive power.
+
+The project is designed as an end-to-end pipeline, incorporating data ingestion, preprocessing, training, validation, and testing stages. Once the optimal model is selected, it is prepared for deployment, allowing the fraud detection system to be integrated into real-world applications. Clear modular organization ensures that each step in the pipeline—from feature engineering to model evaluation—can be reproduced and extended.
+
+Through this work, several key skills are reflected: data preprocessing and feature engineering, handling imbalanced datasets, performing model comparison across algorithms, and designing a robust end-to-end ML pipeline. Together, these components create a strong foundation for building scalable fraud detection systems that can be applied in financial services and beyond.
